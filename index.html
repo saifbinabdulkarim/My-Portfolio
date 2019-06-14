@@ -1,0 +1,149 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="SaifBinAbdulKarim">
+    <meta name="description" content="This my portfolio">
+    <!--  All Styles  -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>iSaif_ee.com</title>
+</head>
+
+<body data-spy="scroll" data--target=".navbar" data-offset="50">
+
+    <!-- Navigation ! -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="javascript:void(0)"
+                    style="color:snow; font-size:24px; font-weight: 600; font-family: 'Segoe UI', Tahoma, sans-serif"><i
+                        style="color:orangered;">i</i>Saifee</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-lg-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#about">ABOUT <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">SKILLS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">PROJECTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ShowCase #About me ! -->
+    <section id="about" style="margin-top:0.6in;">
+        <div class="showcase">
+            <div class="container">
+                <div class="justify-content-center text-center">
+                    <div class="row text-center">
+                        <div id="pro-des" class="col-sm-8 offset-sm-2">
+                            <img data-aos="fade-up" data-aos-duration="700" data-aos-delay="0" class="img-box" src="./images/063-man-2.png" alt="" class="profile">
+                            <div id="title">
+                                <h1 data-aos="fade-up" data-aos-duration="1200" data-aos-delay="0">Hey, there...!</h1>
+                            </div>
+                            <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="0" id="description" class="col-sm-8 offset-sm-2">
+                                <p>
+                                    My name is <i>"Saif Bin Abdul Karim"</i> and I am a MERN Stack Developer who focuses
+                                    on writing clean, elegant &amp; efficient code.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ShowCase #Skills -->
+    <section id="skills">
+        <div class="container">
+            <div class="justify-content-center">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <div class="img-fluid img-bx">
+                            <img src="./images/html5.png" alt="HTML">
+                        </div>
+                        <div class="">
+                            <b style="color:orangered">HTML 5</b>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="img-fluid img-bx">
+                            <img src="./images/css-3.png" alt="CSS">
+                        </div>
+                        <div class="">
+                            <b style="color:dodgerblue">CSS 3</b>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="img-fluid img-bx">
+                            <img src="./images/javascript.png" alt="JS">
+                        </div>
+                        <div class="">
+                            <b style="color:rgb(233, 199, 7)">JavaScript</b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container text-center">
+            <h1>Projects</h1>
+        </div>
+    </section>
+    <section id="blog">
+            <div class="container text-center">
+                <h1> Blog</h1>
+            </div>
+    </section>
+    <section id="contact">
+            <div class="container text-center">
+                <h1>contact</h1>
+            </div>
+    </section>
+
+
+
+    <!--  All Scripts  -->
+    <script src="./js/jquery.js"></script>
+    <script src="./js/popper.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/index.js"></script>
+    <script type="text/javascript">
+        $(document).scroll(function () {
+            $('.navbar').toggleClass('scrolled', $(this).scrollTop() > $('.navbar').height());
+        });
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
